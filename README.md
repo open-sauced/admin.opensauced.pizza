@@ -25,4 +25,4 @@ Your browser should open automatically to `http://localhost:8910` to see the web
 
 ## How the authentication works
 
-Its [supabase](https://supabase.io/docs/guides/auth)
+Its [supabase](https://supabase.io/docs/guides/auth). Supabase makes it simple to manage your users.
