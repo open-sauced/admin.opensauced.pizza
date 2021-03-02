@@ -3,15 +3,22 @@ import RepoListCell from "src/components/RepoListCell";
 
 const HomePage = () => {
   return (
-    <>
-      <h1>List of Repos in the DB</h1>
-
-      <div class="">
-        <div class="flex max-w-xl my-10 bg-white shadow-md rounded-lg overflow-hidden mx-auto">
+    <div className="text-center">
+      <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        List of Repos in the DB
+      </h1>
+      <Link className="text-indigo-600 underline" to="/repositories">
+        <button>Add a repository</button>
+      </Link>
+      <div class="flex max-w-xl mx-auto">
+        <div class="flex items-center w-full">
           <RepoListCell />
         </div>
       </div>
-    </>
+      <footer>
+        <small>Yelp for Open Source, Y'all.</small>
+      </footer>
+    </div>
   );
 };
 
