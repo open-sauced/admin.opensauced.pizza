@@ -9,7 +9,6 @@ const HomePage = () => {
       </h1>
       <p>
         Open Source recommendations, but Saucy.
-      </h1>
       </p>
       <Link className="text-indigo-600 underline" to="/repositories">
         <button>Add a repository</button>
