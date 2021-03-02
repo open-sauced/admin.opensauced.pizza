@@ -5,8 +5,12 @@ const HomePage = () => {
   return (
     <div className="text-center">
       <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-        List of Repos in the DB
+        flava-flav
       </h1>
+      <p>
+        Open Source recommendations, but Saucy.
+      </h1>
+      </p>
       <Link className="text-indigo-600 underline" to="/repositories">
         <button>Add a repository</button>
       </Link>
