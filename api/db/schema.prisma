@@ -1,6 +1,4 @@
 datasource DS {
-  // optionally set multiple providers
-  // example: provider = ["sqlite", "postgresql"]
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
@@ -10,8 +8,6 @@ generator client {
   binaryTargets = "native"
 }
 
-// Define your own datamodels here and run `yarn redwood db save` to create
-// migrations for them.
 model User {
   id        Int      @id @default(autoincrement())
   githubId  Int
