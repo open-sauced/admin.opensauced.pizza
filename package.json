@@ -18,13 +18,3 @@
   }
 }
 
-"workspaces": [
-  "packages/*"
-],
-
-{
-  "scripts": {
-    "preinstall": "npx only-allow pnpm"
-    ...
-  }
-}
